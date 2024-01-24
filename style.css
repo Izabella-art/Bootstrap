@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(20, 93, 202, 0.644);
+    color: #fff;
+}
+.container-fluid{
+    background-color: #fff;
+}
+nav{
+    background-color:  rgba(20, 93, 202, 0.644);
+}
+
+
+.activee {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    padding: 15px 43px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid #f21b1b;
+    color: #f21b1b;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.activee:hover:not(.activee) {
+    BOX-shadow: 0 0 15px #f21b1b, inset 0 0 15px #f21b1b;
+    text-shadow: 0 0 15px #f21b1b;
+}
+
+
+
+
+
